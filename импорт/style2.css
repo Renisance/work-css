@@ -1,0 +1,9 @@
+div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    transition: 1s ease linear;
+}
+div:hover{
+    translate: 100px;
+}

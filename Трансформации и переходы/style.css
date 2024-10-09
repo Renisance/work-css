@@ -1,0 +1,32 @@
+
+
+
+div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: all 0s ease 0s;
+    /*Аналогичные записи:
+    transition-property: all;
+    transition-duration:0s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+   */ 
+}
+div:nth-child(2){
+    background-color: blue;
+}
+.box-1:hover{
+translate:-50px;
+/*transform:translate(-50px);*/
+}
+.box-2:hover{
+    scale:2;
+    /* transform: scale(2);*/
+}
+.box-3:hover{
+    rotate:40deg;
+    /* transform:rotate(40deg);*/
+}
+

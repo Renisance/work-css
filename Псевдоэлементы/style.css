@@ -1,0 +1,35 @@
+form{
+    display: inline-block;
+    background-color: #ffc3c3;
+    padding: 10px;
+}
+fieldset{
+    
+}
+input{
+    width: 350px;
+    margin: 10px;
+}
+input::placeholder{
+  color: black;
+  opacity: 0.3;  
+}
+
+button{
+    margin: 10px;
+
+}
+button:active{
+    border: 1px solid black;
+}
+button:focus-visible{
+    border: 1px solid;
+}
+.but{
+display: flex;
+justify-content: space-between;
+}
+
+p{
+    margin: 0;
+}

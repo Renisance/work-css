@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin: 0%;
+    
+}
+header{
+    background-image:url(Rectangle\ 2.png);
+    background-size: cover;
+    color: #fff;  
+}
+
+a>img{
+  width: 140px;
+  height: 58px;  
+  margin-left: 40px;
+  margin-top: 11px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.cont-nav{
+    display: flex;
+    height: 80px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #005BC199;
+    flex-basis: 40%;
+    
+}
+
+.cont-logo{
+    flex-basis: 30%;
+}
+.cont-links{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;   
+}
+.nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 50px;
+}

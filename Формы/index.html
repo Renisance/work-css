@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <form action="#" method="get"> 
+        <div>
+            <input type="text" name="username" value="">
+        </div>
+        <div>
+            <input type="password" name="userpass" value="">
+        </div>
+        <div>
+            <p><input type="radio" name="beer" value="lager">Светлое</p>
+            <p><input checked type="radio" name="beer" value="lager">Темное</p>
+        </div>
+        <br>
+        <div>
+            <p><input checked type="radio" name="beer2" value="lager">Светлое</p>
+            <p><input type="radio" name="beer2" value="lager">Темное</p>
+        </div>
+
+        <div>
+            <p><input type="checkbox" name="car" value="yes">Наличие авто</p>
+        </div>
+        <div>
+            <p><input type="file" name="photo"></p>
+        </div>
+        <div>
+            <textarea placeholder="Введдите текст.." name="" id=""></textarea>
+        </div>
+
+         ВЫПАДАЮЩИЙ СПИСОК
+        <select name="color" id="">
+            <option value="yelow">Желтый</option>
+            <option value="green">Зеленый</option>
+        </select>
+<br>
+<br>
+<br>
+<button type="submit">Отправить</button>
+<button type="reset">Отмена</button>
+
+    </form>
+<div class="cont">
+    <form action="#" method="post">
+        <fieldset>Обратная связь</fieldset>
+        <div>
+<input class="inp" type="text" name="username" value="" placeholder="Введите имя..">
+        </div>
+        <div>
+            <input class="inp" type="tel" name="tel" value = "" placeholder="+7()">
+        </div>
+        <div>
+            <textarea name="text"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Отправить</button>
+            <p><input class="box" type="checkbox"> Я согласен с условиями</p>
+        </div>
+    </form>
+</div>
+<hr>-->
+<!-- ------------------------------------------------------------------------------------ -->
+<form action="#" method="GET">
+    <legend>Форма</legend>
+<div>
+    <p>Имя</p>
+    <input placeholder="Имя" tabindex="1" type="text" name="username">
+</div>
+<div>
+    <p>Пароль</p>
+    <input required placeholder="Пароль" tabindex="2" type="password" name="userpass">
+</div>
+<div>
+    <p><label for="tel">Телефон</label></p>
+    <input id="tel" required placeholder="+7()" tabindex="3" type="tel" name="usertel">
+</div>
+<div>
+    <input tabindex="4" type="radio" name="gender" value="male">Мужской
+</div>
+<div>
+    <input tabindex="4" type="radio" name="gender" value="female">Женский
+</div>
+<div>
+    <p>Имущество</p>
+    <input tabindex="5" checked type="checkbox" name="bike" value="yes">Байк
+    <input tabindex="6" type="checkbox" name="car" value="yes">Машина
+    <input tabindex="7" disabled type="checkbox" name="house" value="yes">Дом
+</div>
+<div>
+    <textarea tabindex="8" name="text"></textarea>
+</div>
+<div>
+    <p>Прикрепить фото</p>
+    <input tabindex="9" type="file" name="userphoto">
+</div>
+<div>
+    <p>Любимый цвет</p>
+    <select tabindex="10" name="color" id="">
+        <option value="red">Красный</option>
+        <option value="yellow">Желтый</option>
+        <option selected value="blue">Синий</option>
+    </select>
+</div>
+<div>
+    <button tabindex="11" type="submit">ОК</button>
+    <button tabindex="12" type="reset">Очистить</button>
+</div>
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

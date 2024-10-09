@@ -1,0 +1,32 @@
+div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    background-color: rgb(160, 255, 152);
+    animation:anime 6s ease ;
+   /* animation-name: название анимации;
+    animation-duration: время анимации(1s);
+    animation-delay: задержка перед началом;
+    animation-iteration-count: количество выполнения анимации раз(3);
+    animation-timing-function: скорость (ease);
+    animation-direction: как выполнить в обратном порядке, туда-сюда и т.д;
+    animation-play-state:running(по умолчанию), paused(при наведении анимация ставится на паузу);*/
+}
+
+@keyframes anime{
+    0%{
+        translate:0px;
+    
+    }
+    30%{
+        translate: 75vw;
+        transform: translateY(100px);
+        
+    }
+    100%{
+        rotate:270deg;
+  
+        
+    }
+   
+}

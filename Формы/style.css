@@ -1,0 +1,29 @@
+/*.cont{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+    
+}
+div{
+    margin: 10px;
+}
+.inp{
+    width: 200px;
+}
+textarea{
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 50px;
+    max-height: 100px;
+
+}
+fieldset{
+    border: 0;
+}
+.box{
+width:0.8em ;
+}
+p{
+    font-size: 0.8em;
+}

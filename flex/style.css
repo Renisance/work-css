@@ -1,0 +1,18 @@
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.cont{
+    background-color: #ffc3c3;
+    width: 10vw;
+    height: 10vh;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid;
+    
+}
